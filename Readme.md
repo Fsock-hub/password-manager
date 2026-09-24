@@ -14,18 +14,14 @@ All credentials are stored in an encrypted file and can only be accessed with th
 ## Installation
 
 1. Clone the repository:
-
+```bash
    git clone https://github.com/Fsock-hub/password-manager.git
    cd password-manager
-
-2. Install the dependency:
-
-   pip install cryptography
-
-3. Run the program:
-
+```
+2. Run the program:
+```bash
    python password_manager.py
-
+```
 ## First Launch
 
 You will be asked to create a master password. Remember it – without it, your data will be unrecoverable.
