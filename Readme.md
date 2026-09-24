@@ -54,11 +54,10 @@ Password manager 1.0
  4 - Delete saved entry data
  ~> 1
  Enter name of site: ~> github.com 
- ```
-- Enter login: ~> my_login
-- Enter password: ~> password123
-- Entry data saved...
-
+ Enter login: ~> my_login
+ Enter password: ~> password123
+ Entry data saved...
+```
 ## Author
 
 Fsock-hub
