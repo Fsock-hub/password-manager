@@ -2,8 +2,15 @@ import json
 import os
 import time
 import hashlib
-from cryptography.fernet import Fernet
 import base64
+
+try:
+    from cryptography.fernet import Fernet
+    
+except ImportError:
+    os.system('python -m pip install cryptography')
+    os.system('clear')
+    from cryptography.fernet import Fernet
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ENC_FILE_PATH = os.path.join(BASE_DIR, 'passwords.enc')
