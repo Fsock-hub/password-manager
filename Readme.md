@@ -45,14 +45,16 @@ You will be asked to create a master password. Remember it – without it, your 
 
 ## Example
 
-- Password manager 1.0
-- 0 - Exit
-- 1 - Add and save entry data
-- 2 - Show saved entry data
-- 3 - Search saved entry data
-- 4 - Delete saved entry data
-- ~> 1
-- Enter name of site: ~> github.com
+bash ```
+Password manager 1.0
+ 0 - Exit
+ 1 - Add and save entry data
+ 2 - Show saved entry data
+ 3 - Search saved entry data
+ 4 - Delete saved entry data
+ ~> 1
+ Enter name of site: ~> github.com
+ ```
 - Enter login: ~> my_login
 - Enter password: ~> password123
 - Entry data saved...
