@@ -45,7 +45,7 @@ You will be asked to create a master password. Remember it – without it, your 
 
 ## Example
 
-bash ```
+```bash
 Password manager 1.0
  0 - Exit
  1 - Add and save entry data
@@ -53,8 +53,8 @@ Password manager 1.0
  3 - Search saved entry data
  4 - Delete saved entry data
  ~> 1
- Enter name of site: ~> github.com ```
- 
+ Enter name of site: ~> github.com 
+ ```
 - Enter login: ~> my_login
 - Enter password: ~> password123
 - Entry data saved...
